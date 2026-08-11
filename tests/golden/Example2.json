@@ -1,0 +1,112 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        7,
+        "false"
+      ],
+      [
+        3,
+        4,
+        ""
+      ],
+      [
+        4,
+        5,
+        "false"
+      ],
+      [
+        4,
+        6,
+        "true"
+      ],
+      [
+        5,
+        2,
+        ""
+      ],
+      [
+        6,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "5:17|int i = 1",
+          "5:24|int j = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "5:8|i <= 3"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "6:21|int k = 1",
+          "6:28|int l = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "6:12|k <= 2"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "5:39|i++",
+          "5:44|j++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "7:16|System.out.println(\"i: \" + i + \", j: \" + j + \", k: \" + k + \", l: \" + l)",
+          "6:43|k++",
+          "6:48|l++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 7,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

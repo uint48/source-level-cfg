@@ -1,0 +1,67 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ],
+      [
+        3,
+        2,
+        "true"
+      ],
+      [
+        3,
+        4,
+        "false"
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "5:12|int i = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "7:12|System.out.println(i)",
+          "8:12|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "6:8|i <= 5"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 4,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

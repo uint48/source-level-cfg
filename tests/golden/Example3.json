@@ -1,0 +1,95 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        6,
+        "false"
+      ],
+      [
+        3,
+        4,
+        "false"
+      ],
+      [
+        3,
+        5,
+        "true"
+      ],
+      [
+        4,
+        2,
+        ""
+      ],
+      [
+        5,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "5:17|int i = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "5:8|i <= 10"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "6:12|i % 2 == 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "5:33|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "7:16|System.out.println(i + \" is even\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        4,
+        "false"
+      ],
+      [
+        3,
+        5,
+        ""
+      ],
+      [
+        4,
+        5,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "12:12|int once = apply(value)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "13:8|once == value"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "14:12|return once"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "16:8|return apply(once)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int applyTwice(int value)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "true"
+      ],
+      [
+        1,
+        3,
+        "false"
+      ],
+      [
+        2,
+        6,
+        ""
+      ],
+      [
+        3,
+        4,
+        "true"
+      ],
+      [
+        3,
+        5,
+        "false"
+      ],
+      [
+        4,
+        6,
+        ""
+      ],
+      [
+        5,
+        6,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "20:8|value < 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "21:12|return 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "23:8|value > max"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "24:12|return max"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "26:8|return value"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int clamp(int value, int max)",
+    "unreachable": []
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        4,
+        "false"
+      ],
+      [
+        3,
+        11,
+        ""
+      ],
+      [
+        4,
+        5,
+        "true"
+      ],
+      [
+        4,
+        6,
+        "false"
+      ],
+      [
+        5,
+        11,
+        ""
+      ],
+      [
+        6,
+        7,
+        "true"
+      ],
+      [
+        6,
+        8,
+        "false"
+      ],
+      [
+        7,
+        11,
+        ""
+      ],
+      [
+        8,
+        9,
+        "true"
+      ],
+      [
+        8,
+        10,
+        "false"
+      ],
+      [
+        9,
+        11,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "5:12|int number = 7"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "7:8|number > 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "8:12|System.out.println(\"The number is positive\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "9:15|number < 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "10:12|System.out.println(\"The number is negative\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "11:15|number % 2 == 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "12:12|System.out.println(\"The number is zero\")",
+          "13:12|System.out.println(\"The number is also even\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [
+          "14:15|number % 2 != 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 9,
+        "statements": [
+          "15:12|System.out.println(\"The number is zero\")",
+          "16:12|System.out.println(\"The number is also odd\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 10,
+        "statements": [
+          "18:12|System.out.println(\"The number is zero\")",
+          "19:12|System.out.println(\"The number is also divisible by 2\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 11,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

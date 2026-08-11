@@ -1,0 +1,67 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        4,
+        "false"
+      ],
+      [
+        3,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "5:14|int[] numbers = {1,2,3,4,5}"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "6:8|has next(numbers)"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "6:17|int number = next(numbers)",
+          "7:12|System.out.println(number)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

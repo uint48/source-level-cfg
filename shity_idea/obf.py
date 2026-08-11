@@ -1,10 +1,21 @@
+"""Abandoned sketch: flatten a method into a switch-dispatch loop.
+
+NOT MAINTAINED, and it does not run as-is. It was written against the AST from
+before the CFG rewrite and still expects fields that no longer exist --
+`IfStmt.hasElif` and the dict-shaped `SwitchStmt.caseBlocks`, which is now the
+ordered `SwitchStmt.cases` list. It also carries its own copies of `BasicBlock`
+and `SourceLevelCFG` rather than using `slcfg.cfg`.
+
+Kept only as a record of the idea. Port it to `slcfg/` or delete it.
+"""
+
 import html
 import random
 import re
 
 import networkx as nx
 import graphviz as gv
-from code.ast import *
+from slcfg.ast import *
 
 
 class BasicBlock:

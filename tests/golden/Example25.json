@@ -1,0 +1,743 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void emptyBody()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void onlySemicolons()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void emptyBlocks()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "false"
+      ],
+      [
+        1,
+        3,
+        "true"
+      ],
+      [
+        2,
+        3,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "23:8|n > 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void emptyIf(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        4,
+        "false"
+      ],
+      [
+        3,
+        2,
+        ""
+      ],
+      [
+        4,
+        5,
+        "true"
+      ],
+      [
+        4,
+        6,
+        "false"
+      ],
+      [
+        5,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "27:17|int i = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "27:8|i < n"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "27:31|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "28:8|n > 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 5,
+        "statements": [],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void emptyLoops(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "32:8|switch (n)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void emptySwitch(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "default"
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "36:8|switch (n)"
+        ],
+        "type": "switch"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void switchWithOnlyDefault(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "case 1"
+      ],
+      [
+        1,
+        3,
+        "no match"
+      ],
+      [
+        2,
+        3,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "43:8|switch (n)"
+        ],
+        "type": "switch"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "45:16|System.out.println(\"one\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void switchWithoutDefault(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "exception: Exception"
+      ],
+      [
+        1,
+        3,
+        ""
+      ],
+      [
+        2,
+        4,
+        ""
+      ],
+      [
+        3,
+        5,
+        ""
+      ],
+      [
+        3,
+        6,
+        "exception: RuntimeException"
+      ],
+      [
+        4,
+        7,
+        ""
+      ],
+      [
+        4,
+        9,
+        "abrupt"
+      ],
+      [
+        5,
+        4,
+        "abrupt"
+      ],
+      [
+        5,
+        8,
+        ""
+      ],
+      [
+        6,
+        5,
+        ""
+      ],
+      [
+        7,
+        9,
+        ""
+      ],
+      [
+        8,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "59:10|Exception e",
+          "60:12|System.out.println(\"outer\")"
+        ],
+        "type": "catch"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "53:16|System.out.println(\"inner\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "62:12|System.out.println(\"outer finally\")"
+        ],
+        "type": "finally"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "57:16|System.out.println(\"inner finally\")"
+        ],
+        "type": "finally"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "54:14|RuntimeException e",
+          "55:16|throw e"
+        ],
+        "type": "catch"
+      },
+      {
+        "index": 7,
+        "statements": [],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [],
+        "type": "regular"
+      },
+      {
+        "index": 9,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void nestedTryFinally()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "68:12|return 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "70:12|return 2"
+        ],
+        "type": "finally"
+      },
+      {
+        "index": 3,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int returnInsideFinally()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        13,
+        "false"
+      ],
+      [
+        3,
+        4,
+        ""
+      ],
+      [
+        4,
+        5,
+        "false"
+      ],
+      [
+        4,
+        6,
+        "true"
+      ],
+      [
+        5,
+        2,
+        ""
+      ],
+      [
+        6,
+        7,
+        ""
+      ],
+      [
+        7,
+        8,
+        "false"
+      ],
+      [
+        7,
+        9,
+        "true"
+      ],
+      [
+        8,
+        4,
+        ""
+      ],
+      [
+        9,
+        8,
+        "false"
+      ],
+      [
+        9,
+        10,
+        "true"
+      ],
+      [
+        10,
+        11,
+        "false"
+      ],
+      [
+        10,
+        12,
+        "true"
+      ],
+      [
+        11,
+        7,
+        ""
+      ],
+      [
+        12,
+        11,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "75:17|int i = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "75:8|i < n"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "76:21|int j = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "76:12|j < n"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "75:31|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "77:25|int k = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "77:16|k < n"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 8,
+        "statements": [
+          "76:35|j++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 9,
+        "statements": [
+          "78:20|i == j"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 10,
+        "statements": [
+          "79:24|j == k"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 11,
+        "statements": [
+          "77:39|k++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 12,
+        "statements": [
+          "79:36|System.out.println(i)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 13,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void deeplyNestedUnbraced(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "85:8|throw new RuntimeException(\"always\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void throwOnly()",
+    "unreachable": []
+  }
+]
