@@ -1,0 +1,221 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "false"
+      ],
+      [
+        2,
+        4,
+        "true"
+      ],
+      [
+        3,
+        5,
+        ""
+      ],
+      [
+        4,
+        2,
+        ""
+      ],
+      [
+        5,
+        6,
+        "false"
+      ],
+      [
+        5,
+        7,
+        "true"
+      ],
+      [
+        6,
+        8,
+        ""
+      ],
+      [
+        7,
+        5,
+        ""
+      ],
+      [
+        8,
+        9,
+        "true"
+      ],
+      [
+        8,
+        10,
+        "false"
+      ],
+      [
+        9,
+        11,
+        ""
+      ],
+      [
+        10,
+        12,
+        "true"
+      ],
+      [
+        10,
+        13,
+        "false"
+      ],
+      [
+        11,
+        14,
+        ""
+      ],
+      [
+        12,
+        11,
+        ""
+      ],
+      [
+        13,
+        11,
+        ""
+      ],
+      [
+        14,
+        8,
+        "true"
+      ],
+      [
+        14,
+        15,
+        "false"
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "5:12|int totalIterations = 10",
+          "7:12|int whileCounter = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "8:8|whileCounter <= totalIterations"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "13:17|int i = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "9:12|System.out.println(whileCounter)",
+          "10:12|whileCounter++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "13:8|i <= totalIterations"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "17:12|int doWhileCounter = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "14:12|System.out.println(\"test\")",
+          "13:46|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [
+          "19:12|doWhileCounter % 3 == 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 9,
+        "statements": [
+          "20:16|System.out.println(\"Divisible by 3: \" + doWhileCounter)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 10,
+        "statements": [
+          "21:19|doWhileCounter % 5 == 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 11,
+        "statements": [
+          "26:12|doWhileCounter++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 12,
+        "statements": [
+          "22:16|System.out.println(\"Divisible by 5: \" + doWhileCounter)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 13,
+        "statements": [
+          "24:16|System.out.println(\"Not divisible by 3 or 5: \" + doWhileCounter)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 14,
+        "statements": [
+          "18:8|doWhileCounter <= totalIterations"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 15,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

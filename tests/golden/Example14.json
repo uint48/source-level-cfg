@@ -1,0 +1,206 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "case 0"
+      ],
+      [
+        2,
+        4,
+        "case 1"
+      ],
+      [
+        2,
+        5,
+        "case 2, 3"
+      ],
+      [
+        2,
+        6,
+        "default"
+      ],
+      [
+        2,
+        7,
+        "case 99"
+      ],
+      [
+        3,
+        8,
+        ""
+      ],
+      [
+        4,
+        5,
+        ""
+      ],
+      [
+        5,
+        8,
+        ""
+      ],
+      [
+        6,
+        8,
+        ""
+      ],
+      [
+        7,
+        8,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "9:15|String name = \"\""
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "10:8|switch (value)"
+        ],
+        "type": "switch"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "12:16|name = \"zero\""
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "15:16|name = \"one\""
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "19:16|name = name + \" small\""
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "22:16|name = \"many\""
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "25:16|name = \"sentinel\""
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [
+          "27:8|return name"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 9,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "String classify(int value)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        4,
+        "false"
+      ],
+      [
+        3,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "31:17|int i = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "31:8|i < 4"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "32:12|System.out.println(classify(i))",
+          "31:31|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

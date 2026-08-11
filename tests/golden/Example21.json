@@ -1,0 +1,371 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "15:8|instances = 0",
+          "16:8|System.out.println(\"class loaded\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void <clinit>()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "20:8|value = -1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void <init>()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "24:8|this(0);"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "Example21()",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        4,
+        "false"
+      ],
+      [
+        3,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "28:8|this.value = value",
+          "29:8|instances++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "30:8|value < 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "31:12|this.value = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "Example21(int value)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "36:8|return value * factor"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int scale(int factor)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "true"
+      ],
+      [
+        1,
+        3,
+        "false"
+      ],
+      [
+        2,
+        4,
+        ""
+      ],
+      [
+        3,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "40:8|offset == 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "41:12|return scale(factor)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "43:8|return value * factor + offset"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int scale(int factor, int offset)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "48:12|return n + n"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int twice(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "true"
+      ],
+      [
+        1,
+        3,
+        "false"
+      ],
+      [
+        2,
+        4,
+        ""
+      ],
+      [
+        3,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "54:12|n < 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "55:16|return value"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "57:12|return value + n"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int plusOuter(int n)",
+    "unreachable": []
+  }
+]

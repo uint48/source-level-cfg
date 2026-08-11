@@ -1,0 +1,180 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "case 1"
+      ],
+      [
+        2,
+        4,
+        "case 2"
+      ],
+      [
+        2,
+        5,
+        "case 3"
+      ],
+      [
+        2,
+        6,
+        "case 4"
+      ],
+      [
+        2,
+        7,
+        "case 5"
+      ],
+      [
+        2,
+        8,
+        "case 6"
+      ],
+      [
+        2,
+        9,
+        "case 7"
+      ],
+      [
+        2,
+        10,
+        "default"
+      ],
+      [
+        3,
+        11,
+        ""
+      ],
+      [
+        4,
+        11,
+        ""
+      ],
+      [
+        5,
+        11,
+        ""
+      ],
+      [
+        6,
+        11,
+        ""
+      ],
+      [
+        7,
+        11,
+        ""
+      ],
+      [
+        8,
+        11,
+        ""
+      ],
+      [
+        9,
+        11,
+        ""
+      ],
+      [
+        10,
+        11,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "6:12|int dayOfWeek = 3"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "8:8|switch (dayOfWeek)"
+        ],
+        "type": "switch"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "10:16|System.out.println(\"Monday\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "13:16|System.out.println(\"Tuesday\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "16:16|System.out.println(\"Wednesday\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "19:16|System.out.println(\"Thursday\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "22:16|System.out.println(\"Friday\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [
+          "25:16|System.out.println(\"Saturday\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 9,
+        "statements": [
+          "28:16|System.out.println(\"Sunday\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 10,
+        "statements": [
+          "31:16|System.out.println(\"Invalid day of the week\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 11,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

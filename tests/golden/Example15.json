@@ -1,0 +1,108 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "case 1, 7"
+      ],
+      [
+        2,
+        4,
+        "case 2, 3, 4, 5, 6"
+      ],
+      [
+        2,
+        5,
+        "default"
+      ],
+      [
+        3,
+        6,
+        ""
+      ],
+      [
+        4,
+        6,
+        ""
+      ],
+      [
+        5,
+        7,
+        ""
+      ],
+      [
+        6,
+        7,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "8:12|int day = args.length"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "10:8|switch (day)"
+        ],
+        "type": "switch"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "11:25|System.out.println(\"weekend\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "13:16|System.out.println(\"weekday\")",
+          "14:16|System.out.println(\"work\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "16:23|throw new IllegalArgumentException(\"bad day\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "19:8|System.out.println(\"done\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 7,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        8,
+        "false"
+      ],
+      [
+        3,
+        4,
+        "true"
+      ],
+      [
+        3,
+        5,
+        "false"
+      ],
+      [
+        4,
+        8,
+        ""
+      ],
+      [
+        5,
+        6,
+        ""
+      ],
+      [
+        6,
+        7,
+        "true"
+      ],
+      [
+        6,
+        8,
+        "false"
+      ],
+      [
+        7,
+        6,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "6:12|int j = 0",
+          "6:18|int i = 0",
+          "7:12|int a = 5 - i"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "9:8|a < i * 3"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "9:21|i < 5"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "10:16|int j",
+          "11:12|j = 3 * i + a",
+          "12:12|System.out.println(j * 4)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "13:24|int k = 1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "13:15|k <= 5"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "14:12|System.out.println(k)",
+          "13:39|k++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]

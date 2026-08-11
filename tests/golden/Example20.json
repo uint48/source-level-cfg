@@ -1,0 +1,346 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "true"
+      ],
+      [
+        1,
+        3,
+        "false"
+      ],
+      [
+        2,
+        9,
+        ""
+      ],
+      [
+        3,
+        4,
+        ""
+      ],
+      [
+        4,
+        5,
+        "false"
+      ],
+      [
+        4,
+        6,
+        "true"
+      ],
+      [
+        5,
+        9,
+        ""
+      ],
+      [
+        6,
+        7,
+        "false"
+      ],
+      [
+        6,
+        8,
+        "true"
+      ],
+      [
+        7,
+        4,
+        ""
+      ],
+      [
+        8,
+        9,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "10:8|values == null"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "11:12|return -1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "13:17|int i = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "13:8|i < values.length"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "18:8|return -1"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "14:12|values[i] == target"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "13:43|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [
+          "15:16|return i"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 9,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int find(int[] values, int target)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "false"
+      ],
+      [
+        2,
+        4,
+        "true"
+      ],
+      [
+        3,
+        6,
+        ""
+      ],
+      [
+        4,
+        3,
+        "true"
+      ],
+      [
+        4,
+        5,
+        "false"
+      ],
+      [
+        5,
+        2,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "22:12|int n = start"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "23:8|true"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "30:8|return n"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "24:12|n <= 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "27:12|System.out.println(n)",
+          "28:12|n--"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 6,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int countdown(int start)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "true"
+      ],
+      [
+        1,
+        3,
+        "false"
+      ],
+      [
+        2,
+        4,
+        ""
+      ],
+      [
+        3,
+        4,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "34:8|n > 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "35:12|return n"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "37:8|return -n"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "int unreachableTail(int n)",
+    "unreachable": []
+  },
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        "true"
+      ],
+      [
+        1,
+        3,
+        "false"
+      ],
+      [
+        2,
+        1,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "41:8|true"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "42:12|System.out.println(\"forever\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 3,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void infiniteLoop()",
+    "unreachable": []
+  }
+]

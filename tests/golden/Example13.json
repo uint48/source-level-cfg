@@ -1,0 +1,270 @@
+[
+  {
+    "edges": [
+      [
+        0,
+        1,
+        ""
+      ],
+      [
+        1,
+        2,
+        ""
+      ],
+      [
+        2,
+        3,
+        "true"
+      ],
+      [
+        2,
+        4,
+        "false"
+      ],
+      [
+        3,
+        5,
+        ""
+      ],
+      [
+        4,
+        6,
+        "false"
+      ],
+      [
+        4,
+        7,
+        "true"
+      ],
+      [
+        5,
+        8,
+        "false"
+      ],
+      [
+        5,
+        9,
+        "true"
+      ],
+      [
+        6,
+        10,
+        ""
+      ],
+      [
+        7,
+        11,
+        ""
+      ],
+      [
+        8,
+        12,
+        ""
+      ],
+      [
+        9,
+        12,
+        "true"
+      ],
+      [
+        9,
+        13,
+        "false"
+      ],
+      [
+        10,
+        14,
+        "false"
+      ],
+      [
+        10,
+        18,
+        "true"
+      ],
+      [
+        11,
+        4,
+        "false"
+      ],
+      [
+        11,
+        15,
+        "true"
+      ],
+      [
+        12,
+        2,
+        ""
+      ],
+      [
+        13,
+        4,
+        "true"
+      ],
+      [
+        13,
+        16,
+        "false"
+      ],
+      [
+        14,
+        18,
+        ""
+      ],
+      [
+        15,
+        6,
+        "true"
+      ],
+      [
+        15,
+        17,
+        "false"
+      ],
+      [
+        16,
+        5,
+        ""
+      ],
+      [
+        17,
+        11,
+        ""
+      ]
+    ],
+    "nodes": [
+      {
+        "index": 0,
+        "statements": [],
+        "type": "start"
+      },
+      {
+        "index": 1,
+        "statements": [
+          "9:17|int i = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 2,
+        "statements": [
+          "9:8|i < 5"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 3,
+        "statements": [
+          "10:21|int j = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 4,
+        "statements": [
+          "23:8|true"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 5,
+        "statements": [
+          "10:12|j < 5"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 6,
+        "statements": [
+          "32:12|System.out.println(\"in labeled block\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 7,
+        "statements": [
+          "24:21|int n = 0"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 8,
+        "statements": [
+          "19:12|System.out.println(\"end of i \" + i)"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 9,
+        "statements": [
+          "11:16|j == 3"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 10,
+        "statements": [
+          "33:12|args.length == 0"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 11,
+        "statements": [
+          "24:12|n < 3"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 12,
+        "statements": [
+          "9:31|i++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 13,
+        "statements": [
+          "14:16|i * j > 6"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 14,
+        "statements": [
+          "36:12|System.out.println(\"has args\")"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 15,
+        "statements": [
+          "25:16|n == 2"
+        ],
+        "type": "conditional"
+      },
+      {
+        "index": 16,
+        "statements": [
+          "17:16|System.out.println(i + \",\" + j)",
+          "10:35|j++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 17,
+        "statements": [
+          "24:35|n++"
+        ],
+        "type": "regular"
+      },
+      {
+        "index": 18,
+        "statements": [],
+        "type": "end"
+      }
+    ],
+    "signature": "void main(String[] args)",
+    "unreachable": []
+  }
+]
